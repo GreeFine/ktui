@@ -1,3 +1,4 @@
+mod caching;
 mod inputs;
 mod kube;
 mod state;
