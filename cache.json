@@ -1,0 +1,7 @@
+[
+  {
+    "kind": "Pod",
+    "name": "banana",
+    "namespace": "spacial"
+  }
+]

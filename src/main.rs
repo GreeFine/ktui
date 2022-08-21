@@ -1,4 +1,4 @@
-mod caching;
+mod cache;
 mod inputs;
 mod kube;
 mod state;
@@ -16,6 +16,8 @@ use tui::{backend::CrosstermBackend, Terminal};
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
+    let cache = cache::cache_init();
+    return Ok(());
     // setup terminal
     enable_raw_mode()?;
     let mut stdout = io::stdout();
